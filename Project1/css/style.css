@@ -1,0 +1,31 @@
+/*Base*/
+.container-fluid{
+	background-color: tomato;
+}
+.container{
+	background-color: #f8f8f8;
+}
+.didelis{
+	background: orange;
+	height: 400px;
+}
+.m1{
+	background: green;
+	min-height: 200px;
+}
+.m2{
+	background: yellow;
+	min-height: 200px;
+}
+.m3{
+	background: blue;
+	min-height: 200px;
+}
+.m4{
+	background: purple;
+	min-height: 200px;
+}
+.alert-warning{
+	background: #f8f8f8;
+	margin-top: 50px;
+}
