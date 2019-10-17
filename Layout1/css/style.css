@@ -30,3 +30,25 @@ body{
 	max-width: 100%;
 	height: 374px;
 }
+/*Green button*/
+.textas{
+	text-align: center;
+	margin-top: 25px;
+
+}
+/*white section*/
+.fa-lightbulb{
+	text-align: left;
+	font-size: 35px;
+	margin-top: 5px;
+	margin-left: 1px;
+
+}
+.pwhite{
+	font-size: 13px;
+	margin-left: 10px;
+	margin-top: -35px;
+}
+.white{
+	height: 400px;
+}
