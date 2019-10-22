@@ -24,6 +24,13 @@ body{
 .navbar-brand {
 	margin-left: 5rem;
 }
+.txtNav{
+	font-size: 14px;
+	color: #506a85 !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 30px !important;
+}
 /*Header logo*/
 .headlogo{
 	background-image: url(../img/hd1.jpg);
