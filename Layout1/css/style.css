@@ -142,17 +142,92 @@ body{
 /*pre footer section 7*/
 .sec7{
 	background-color: #2f4052;
+	min-height: 360px;
 }
 .h3s7{
 	font-size: 20px;
 	text-transform: uppercase;
 	color: #ffffff;
+	padding-top: 80px;
 }
-/*footer*/
+.ps7{
+	font-size: 14px;
+	color: #a4b2bf;
+	text-align: left;
+	padding-top: 20px;
+}
+/*Link section 7*/
+.link7{
+	font-size: 14px;
+	color: #a3b1be;
+	font-weight: bold;
+}
+.link7:hover{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.gap{
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+.buttonInside{
+  position:relative;
+  margin-bottom:10px;
+}
+.input7{
+	background-color: #4f5c6c;
+	width: 250px;
+	border: none;
+}
+.bt7{
+	background-color: #00bb9c;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 9px 10px;
+	font-weight: bold;
+	position:absolute;
+  	right: 0px;
+  	top: 0px;
+  	z-index: 9;
+}
+.bt7:hover{
+	background-color: #ffffff;
+	color: #00bb9c;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 9px 10px;
+	font-weight: bold;
+	position:absolute;
+  	right: 0px;
+  	top: 0px;
+  	z-index: 9;
+}
+/*footer-------------------------*/
 .footer{
 	background-color: #293646;
 }
-/*Icons and text*/
+/*Copyright*/
+.copyright{
+	margin-top: 10px;
+	font-size: 13px;
+	color: #616f7c;
+}
+/*footer nav*/
+.fnav{
+	display: inline-block;
+	list-style: none;
+	padding-top: 3px;
+}
+.footlink{
+	color: #6c7989;
+	text-decoration: none;
+}
+.footlink:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+/*Icons and text---------------*/
 .fa-envelope, .fa-mobile-alt{
 	font-size: 14px;
 	color: #506a85;
@@ -175,7 +250,20 @@ body{
 	padding: 0;
 
 }
-/* Carousel */
+.fa-long-arrow-alt-right{
+	font-size: 14px;
+	color: #a3b1be;
+	padding-left: 7px;
+	margin-top: 20px;
+}
+.ico{
+	font-size: 14px;
+	color: #7b8b9b;
+	padding: 3px;
+	margin: 0;
+
+}
+/* Carousel-------------------- */
 .blog .carousel-indicators {
 	left: 0;
 	top: auto;
@@ -189,6 +277,7 @@ body{
     border-radius: 50%;
     width: 8px;
     height: 8px ;
+    border: none;
 }
 
 .blog .carousel-indicators .active {
@@ -196,11 +285,9 @@ body{
 	border-radius: 50%;
     width: 8px ;
     height: 8px ;
+    border: :none;
 }
 .cnpd{
 	padding-top: 20px;
 	padding-bottom: 60px;
-}
-.olh{
-	height: 8px;
 }
