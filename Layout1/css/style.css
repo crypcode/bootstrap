@@ -235,6 +235,7 @@ body{
 	display: inline-block;
 	list-style: none;
 	padding-top: 3px;
+	margin: 0;
 }
 .footlink{
 	color: #6c7989;
